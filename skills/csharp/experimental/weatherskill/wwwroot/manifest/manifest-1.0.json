@@ -5,7 +5,7 @@
   "description": "The Weather skill provides an example of displaying the current weather using AccuWeather.",
   "publisherName": "Microsoft",
   "version": "1.0",
-  "iconUrl": "https://{YOUR_SKILL_URL}/images/WeatherSkill.png",
+  "iconUrl": "https://mavericktestwebappbot.azurewebsites.net/images/WeatherSkill.png",
   "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
   "license": "",
   "privacyUrl": "https://{YOUR_SKILL_URL}/privacy.html",

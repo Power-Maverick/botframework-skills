@@ -120,7 +120,7 @@ namespace WeatherSkill.Utilities
             var res = new CardExt { Name = Path.Join(PathBase, card.Name + suffix), Data = card.Data };
             if (containerItems != null)
             {
-                res.Cards = containerItems.Select((card) => Convert(card, "Containee.json")).ToList();
+                res.Cards = containerItems.Select((tcard) => Convert(tcard, "Containee.json")).ToList();
             }
 
             return res;
